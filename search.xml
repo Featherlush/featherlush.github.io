@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>初学者使用vue配置环境</title>
+      <link href="/2024/09/10/%E5%88%9D%E5%AD%A6%E8%80%85%E4%BD%BF%E7%94%A8vue%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83/"/>
+      <url>/2024/09/10/%E5%88%9D%E5%AD%A6%E8%80%85%E4%BD%BF%E7%94%A8vue%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83/</url>
+      
+        <content type="html"><![CDATA[<p>因为有很多需要上手vue的项目需求，写一篇给组里的新人看。</p><h1 id="使用npm"><a href="#使用npm" class="headerlink" title="使用npm"></a>使用npm</h1><h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><p>首先下载node.js，根据自己的电脑配置选择即可：<a href="https://nodejs.org/en/download/">下载链接</a><br>里面除了下载路径（默认c盘）均可直接默认，不需要勾选什么东西。<br>！！！记住你的安装路径！！！<br>至于下载的版本，一般直接选官网默认即可，但是版本的不一样会导致有些旧版本的项目无法打开。目前我遇到项目里v16,v18,v20的都有。如果要快速上手，直接先下载官网默认即可。如果遇到了版本问题，解决办法只能是直接卸载（不然两种版本无法共存），或者使用nvm管理版本。可以看下面的nvm教程。<br>（如果是windows）下载完成后，打开cmd控制台（即win+r输入cmd，不了解的自行百度）或者右键开始键找到windows powershell。<br>（你可以看到有两个，其中一个后面跟了管理员）。现在无论哪一个都可以，分别输入两行代码回车。</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure><p>这里会弹出一个版本，比如我目前的是v20.13.1</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure><p>这里也会有相似的数字，我的是10.5.2<br>这是确认你有没有下载成功，成功的话这里不会报错。</p><h2 id="更改默认路径"><a href="#更改默认路径" class="headerlink" title="更改默认路径"></a>更改默认路径</h2><p>这一步其实是可跳过的，但是有C盘洁癖的人看这里。<br>需要图的可以去看看这里的教程<a href="https://blog.csdn.net/Javachichi/article/details/132868889">https://blog.csdn.net/Javachichi/article/details/132868889</a><br>打开安装路径（一般大家都不安装在C盘），可以看到这个目录下应该有node_modules文件夹。在同级目录下新建文件夹node_cache和node_global<br>再次打开控制台（<strong>接下来所有操作用管理员运行</strong>），输入代码。</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> prefix <span class="string">&quot;你的安装目录\node_global&quot;</span></span><br><span class="line">npm config <span class="built_in">set</span> cache <span class="string">&quot;你的安装目录\node_cache&quot;</span></span><br></pre></td></tr></table></figure><p>如我的就是D:\node.js\node_global</p><p>然后打开你的系统变量。回到桌面，右键“此电脑”，点击属性。无论是哪个版本的电脑仔细找一找在这个界面看到“高级系统设置”，点击后再进入“环境变量”，可以看到分为用户变量和系统变量。先找到用户变量path的那一行点击编辑，看看有没有\AppData\Roaming\npm的一行。将它删除改为你刚刚的<strong>你的安装目录\node_global</strong>。然后系统变量也编辑path，直接新增<strong>你的安装目录\node_global\node_modules</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境配置 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 新手 </tag>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>搭站参考</title>
       <link href="/2024/08/25/hello-world/"/>
       <url>/2024/08/25/hello-world/</url>
