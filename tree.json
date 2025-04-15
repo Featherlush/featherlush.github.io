@@ -1,0 +1,75 @@
+{
+  "name": "宁波市总用电量",
+  "children": [
+    {
+      "name": "工业用电",
+      "children": [{
+        "name": "用电量前百企业",
+        "children": [{
+          "name": "前百大型企业（10家）",
+          "children": [{
+            "name": "企业1",
+            "children": []
+          },{
+            "name": "企业2",
+            "children": []
+          },{
+            "name": "...",
+            "children": []
+          },{
+            "name": "企业10",
+            "children": []
+          }]
+        },{
+          "name": "前百其他企业",
+          "children": [{
+            "name": "电力、热力、燃气及水生产和供应业",
+            "children": []
+          },{
+            "name": "建筑业",
+            "children": []
+          },{
+            "name": "采矿业",
+            "children": []
+          },{
+            "name": "制造业",
+            "children": []
+          },{
+            "name": "其他",
+            "children": []
+          }]
+        }]
+      },{
+        "name": "用电量非前百企业",
+        "children": [{
+          "name": "（按行业划分）",
+          "children": []
+        }]
+      }]
+    },
+    {
+      "name": "非工业用电",
+      "children": [{
+        "name": "海曙区",
+        "children": [{
+          "name": "农林牧渔",
+          "children": []
+        },{
+          "name": "居民生活用电",
+          "children": []
+        },{
+          "name": "其他（商业、服务业）等",
+          "children": []
+        }]
+      },
+      {
+        "name": "江北区",
+        "children": []
+      },
+      {
+        "name": "象山县",
+        "children": []
+      }]
+    }
+  ]
+}
