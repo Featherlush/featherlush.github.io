@@ -1,4 +1,4 @@
-import{d as x,r as d,c as e,f as c,e as p,p as b,j as f,F as m,h as g,t as u,m as o,_ as h}from"./index-D_Xvl_hT.js";import{N as y}from"./index-BADBoTSs.js";const v={class:"template-page"},_={class:"template-list"},k=["onClick"],C={class:"template-name"},z=x({__name:"Template",setup(S){const r=f(),s=d([{type:"polaroid",name:"拍立得边框",cover:"https://via.placeholder.com/300x400?text=拍立得模板",renderConfig:{type:"frame",style:`
+import{d as x,r as d,c as e,f as c,e as p,q as b,l as f,F as m,j as g,t as u,p as o,_ as h}from"./index-CdsGB-me.js";import{N as y}from"./index-D1rC3Z7a.js";const v={class:"template-page"},_={class:"template-list"},k=["onClick"],C={class:"template-name"},z=x({__name:"Template",setup(S){const r=f(),s=d([{type:"polaroid",name:"拍立得边框",cover:"https://via.placeholder.com/300x400?text=拍立得模板",renderConfig:{type:"frame",style:`
         top: 20px;
         left: 20px;
         right: 20px;

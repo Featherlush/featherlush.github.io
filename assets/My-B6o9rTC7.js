@@ -1,1 +1,0 @@
-import{_ as s,c as t,e as o,m as n}from"./index-D_Xvl_hT.js";const r={},a={class:"my"};function c(_,e,p,d,l,f){return n(),t("div",a,[...e[0]||(e[0]=[o("h1",null,"我的",-1)])])}const m=s(r,[["render",c]]);export{m as default};
