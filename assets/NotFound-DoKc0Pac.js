@@ -1,0 +1,1 @@
+import{_ as n,c as t,e as o,p as s}from"./index-ertCyEvr.js";const r={};function a(c,e,l,p,u,d){return s(),t("div",null,[...e[0]||(e[0]=[o("h1",null,"404",-1),o("h2",null,"Page not found",-1)])])}const _=n(r,[["render",a]]);export{_ as default};
