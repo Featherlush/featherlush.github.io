@@ -1,1 +1,0 @@
-import{_ as n,c as t,e as o,k as s}from"./index-4cTp2pha.js";const r={};function a(c,e,l,u,d,p){return s(),t("div",null,[...e[0]||(e[0]=[o("h1",null,"404",-1),o("h2",null,"Page not found",-1)])])}const _=n(r,[["render",a]]);export{_ as default};

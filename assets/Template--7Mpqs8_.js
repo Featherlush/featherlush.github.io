@@ -1,4 +1,4 @@
-import{d as x,r as d,c as e,f as c,e as o,l as b,u as f,F as m,m as g,t as u,k as r,_ as h}from"./index-4cTp2pha.js";import{N as v}from"./index-RNzFtTI1.js";const y={class:"template-page"},_={class:"template-list"},k=["onClick"],C=["src","alt"],z={class:"template-name"},S=x({__name:"Template",setup(w){const a=f(),p=d([{type:"polaroid",name:"拍立得边框",cover:"https://via.placeholder.com/300x400?text=拍立得模板",renderConfig:{type:"frame",style:`
+import{d as x,r as d,c as e,f as c,e as p,p as b,j as f,F as m,h as g,t as u,m as o,_ as h}from"./index-D_Xvl_hT.js";import{N as y}from"./index-BADBoTSs.js";const v={class:"template-page"},_={class:"template-list"},k=["onClick"],C={class:"template-name"},z=x({__name:"Template",setup(S){const r=f(),s=d([{type:"polaroid",name:"拍立得边框",cover:"https://via.placeholder.com/300x400?text=拍立得模板",renderConfig:{type:"frame",style:`
         top: 20px;
         left: 20px;
         right: 20px;
@@ -93,4 +93,4 @@ import{d as x,r as d,c as e,f as c,e as o,l as b,u as f,F as m,m as g,t as u,k a
             background: rgba(255, 105, 180, 0.6);
             padding: 4px 8px;
             border-radius: 4px;
-          `}]}}]),i=n=>{a.push({path:"/",query:{renderConfig:JSON.stringify(n.renderConfig)}})};return(n,s)=>{const l=v;return r(),e("div",y,[c(l,{title:"模板","left-arrow":"",onClickLeft:s[0]||(s[0]=t=>b(a).back()),background:"#fff",color:"#000"}),o("div",_,[(r(!0),e(m,null,g(p.value,t=>(r(),e("div",{key:t.type,class:"template-item",onClick:B=>i(t)},[o("img",{src:t.cover,alt:t.name,class:"template-img"},null,8,C),o("span",z,u(t.name),1)],8,k))),128))])])}}}),L=h(S,[["__scopeId","data-v-95e97cc0"]]);export{L as default};
+          `}]}}]),i=a=>{r.push({path:"/",query:{renderConfig:JSON.stringify(a.renderConfig)}})};return(a,n)=>{const l=y;return o(),e("div",v,[c(l,{title:"模板","left-arrow":"",onClickLeft:n[0]||(n[0]=t=>b(r).back()),background:"#fff",color:"#000"}),p("div",_,[(o(!0),e(m,null,g(s.value,t=>(o(),e("div",{key:t.type,class:"template-item",onClick:w=>i(t)},[p("span",C,u(t.name),1)],8,k))),128))])])}}}),F=h(z,[["__scopeId","data-v-500ef9f0"]]);export{F as default};
