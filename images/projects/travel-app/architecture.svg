@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="旅游 APP 技术架构">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="360" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#0f172a">旅游 APP · 技术架构</text>
+
+  <!-- Client layer -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="64" width="300" height="108" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="200" y="92" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#334155">移动客户端（队友）</text>
+    <text x="200" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">Vue 3 · Vant · Hash Router</text>
+    <text x="200" y="138" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">HBuilder → Android APK</text>
+    <text x="200" y="158" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8">JWT Bearer · REST</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="380" y="64" width="300" height="108" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="500" y="92" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#334155">数据管理前端（我）</text>
+    <text x="500" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">Vue 3 · Element Plus · Vite</text>
+    <text x="500" y="138" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">用户 / 景点 / 帖子 / 行程</text>
+    <text x="500" y="158" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8">X-Admin-Key · Axios</text>
+  </g>
+
+  <!-- Arrows to backend -->
+  <path d="M 200 228 L 200 252 L 360 252 L 360 276" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 500 228 L 500 252 L 360 252" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- Backend -->
+  <g filter="url(#shadow)">
+    <rect x="180" y="276" width="360" height="96" rx="12" fill="url(#g1)"/>
+    <text x="360" y="308" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#fff">Flask 后端（我）· TavelBackData</text>
+    <text x="360" y="332" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#ecfdf5">蓝图路由 · SQLAlchemy · JWT · Bcrypt · CORS</text>
+    <text x="360" y="352" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#ecfdf5">图片/视频上传 · 分页 · 双轨鉴权</text>
+  </g>
+
+  <!-- Arrow to DB -->
+  <path d="M 360 380 L 360 396" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Database -->
+  <g filter="url(#shadow)">
+    <rect x="240" y="396" width="240" height="52" rx="10" fill="url(#g2)"/>
+    <text x="360" y="426" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#fff">MySQL · travelapp</text>
+  </g>
+</svg>
