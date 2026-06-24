@@ -1,6 +1,6 @@
 const n=`---
 title: "电脉智绘·论文版"
-description: "论文配套可视化系统，围绕 MS-LSTM-KAN 多尺度预测做特征相关矩阵、层级花瓣图与四维误差评估，支撑 Journal of Visualization 见刊论文的图表复现。"
+description: "配套 Journal of Visualization 期刊 MS-LSTM-KAN 论文的可视化系统。独立承担前端架构、花瓣矩阵、误差评估与时序下钻三大自研图表与 Python 接口联调，实现论文图表在线交互复现与对外展示。"
 date: "2025-05-01"
 gradient: "linear-gradient(135deg, rgba(14, 165, 233, 0.2) 0%, rgba(37, 99, 235, 0.36) 100%)"
 status: "已完成"

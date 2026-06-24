@@ -1,6 +1,6 @@
 const n=`---
 title: "究理 APP"
-description: "面向科学学习的移动端应用，含课程资料、闯关答题、学习社区与积分体系，Vue 3 与 Express 全栈交付并打包 Android。"
+description: "浙江省多媒体竞赛团队作品。全权负责 Vue 3 前端、Express 后端与 MySQL 设计，搭建答题积分、社区与课程完整业务链，HBuilder 打包可安装安卓应用。"
 date: "2024-08-01"
 gradient: "linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(99, 102, 241, 0.36) 100%)"
 status: "已完成"

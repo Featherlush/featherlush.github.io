@@ -1,6 +1,6 @@
 const n=`---
 title: "旅游 APP"
-description: "团队多媒体竞赛第二年作品，国内景点浏览、行程规划与社区分享，Flask 与 MySQL 后端以及 Element Plus 管理后台。"
+description: "多媒体竞赛校二等奖。负责 Flask 后端、JWT 鉴权与 Element Plus 管理台，联调队友 Vant 移动端，覆盖景点、行程与社区完整数据体系。"
 date: "2025-07-01"
 gradient: "linear-gradient(135deg, rgba(20, 184, 166, 0.22) 0%, rgba(15, 118, 110, 0.36) 100%)"
 status: "已完成"

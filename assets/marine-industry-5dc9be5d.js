@@ -1,6 +1,6 @@
 const n=`---
 title: "海洋产业项目"
-description: "2024 年底参与海洋时空关联论文可视化与智能统计平台前端，主攻 D3 关联网络与 ECharts 产业分析仪表盘。"
+description: "海洋时空关联学术配套平台。基于 D3.js 与 ECharts 开发产业关联网络、莫兰散点与多维统计仪表盘，实现时空联动筛选与可复用可视化组件库产出。"
 date: "2024-12-01"
 gradient: "linear-gradient(135deg, rgba(14, 165, 233, 0.2) 0%, rgba(2, 132, 199, 0.35) 100%)"
 status: "已完成"
