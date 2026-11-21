@@ -1,0 +1,1 @@
+function e(e,t){let n=typeof window<`u`?window.history.state?.back:null,r=e.currentRoute.value.fullPath;typeof n==`string`&&n&&n!==r&&e.resolve(n).matched.some(e=>e.name!==void 0&&e.name!==`NotFound`)?e.back():e.push(t)}export{e as t};
