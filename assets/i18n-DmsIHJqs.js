@@ -1,0 +1,1 @@
+import{J as e}from"./element-plus-icons-DStoQ8w0.js";import{d as t,u as n}from"./index-BvoJQ6rx.js";function r(){let r=n();return{t:(e,n)=>t(r.language,e,n),language:e(()=>r.language),setLanguage:e=>r.setLanguage(e)}}export{r as t};

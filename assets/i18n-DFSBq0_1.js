@@ -1,1 +1,0 @@
-import{J as e}from"./element-plus-icons-DStoQ8w0.js";import{l as t,u as n}from"./index-DwlTa-a2.js";function r(){let r=t();return{t:(e,t)=>n(r.language,e,t),language:e(()=>r.language),setLanguage:e=>r.setLanguage(e)}}export{r as t};
